@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+#nextPage {
+    float: right;
+}
+
+#previousPage {
+    float: left;
+}
+
+.nav-button {
+    background: teal;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.6rem 2rem;
+}
+
+.nav-button:hover {
+    opacity: 0.9;
+}
+
+#pageInfo {
+    margin-top: 1rem;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+
+}
+
+#errorMessage {
+    background: orangered;
+    color: #fff;
+}
+
